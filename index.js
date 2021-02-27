@@ -8,9 +8,11 @@ function handleResult() {
     let newArray = string.split(", ");
 
         for (let i = 0; i < newArray.length; i++) {
+
             if(newArray[i] === "true") {
                 count++;
             }
+
         }
 
     result.innerText = `The result is ${count}`;
